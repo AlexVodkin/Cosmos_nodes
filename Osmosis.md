@@ -206,7 +206,7 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 EOF
 ```
-## Whithout cosmovisor
+## Service whithout cosmovisor
 
 ```bash
 sudo tee /etc/systemd/system/osmosisd.service > /dev/null <<EOF
@@ -226,7 +226,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-## Register and start service
+## Register and start service.
 
 ```bash
 sudo systemctl daemon-reload
