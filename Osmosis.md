@@ -181,7 +181,7 @@ wget -O addrbook.json https://snapshots.polkachu.com/addrbook/osmosis/addrbook.j
 mv addrbook.json ~/.osmosisd/config
 ```
 
-# Service
+# Service.
 
 ```bash
 sudo tee <<EOF > /dev/null /etc/systemd/system/osmosisd.service
@@ -206,7 +206,7 @@ LimitNOFILE=65535
 WantedBy=multi-user.target
 EOF
 ```
-## Service whithout cosmovisor
+## Service whithout cosmovisor.
 
 ```bash
 sudo tee /etc/systemd/system/osmosisd.service > /dev/null <<EOF
