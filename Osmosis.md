@@ -152,12 +152,12 @@ sed -i -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"0.001uosmo\"/" $HOM
 ```bash
 sed -i -e "s/prometheus = false/prometheus = true/" $HOME/.osmosisd/config/config.toml
 ```
-## Reset chain data
+## Reset chain data.
 
 ```bash
 osmosisd unsafe-reset-all --home $HOME/.osmosisd 
 ```
-## Snap
+## Snap.
 
 ```
 SNAP_RPC="http://116.202.169.6:26667"
