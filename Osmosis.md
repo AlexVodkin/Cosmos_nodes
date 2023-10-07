@@ -56,7 +56,19 @@ source $HOME/.bash_profile
 cd $HOME
 git clone https://github.com/osmosis-labs/osmosis.git
 cd osmosis
-git checkout v1.0.2
+git checkout v3.1.0
+make install
+```
+## update 
+```bash
+cd osmosis
+git checkout v6.4.0
+make install
+```
+## update v8.0.0
+```bash
+cd osmosis
+git checkout v8.0.0
 make install
 ```
 
