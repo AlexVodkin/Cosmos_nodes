@@ -1,13 +1,13 @@
-# Osmosis
-## Packages
+# Osmosis.
+## Packages.
 ```bash
 sudo apt update && sudo apt upgrade -y
 ```
-## Dependencies
+## Dependencies.
 ```bash
 sudo apt install curl build-essential git wget jq make gcc tmux chrony -y
 ```
-## Go
+## Go.
 ```bash
 if ! [ -x "$(command -v go)" ]; then
   ver="1.18.2"
@@ -20,7 +20,7 @@ if ! [ -x "$(command -v go)" ]; then
   source ~/.bash_profile
 fi
 ```
-## Go
+## Go.
 ```bash
 ver="1.19.1" && \
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz" && \
