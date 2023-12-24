@@ -31,7 +31,7 @@ echo "export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin" >> $HOME/.bash_profile &
 source $HOME/.bash_profile && \
 go version
 ```
-## Moniker, whrite some name
+## Moniker, whrite some name.
 ```bash
 NODENAME=Kolot
 ```
@@ -39,7 +39,7 @@ NODENAME=Kolot
 ```bash
 OSMOSIS_PORT=44
 ```
-## Save and import variables
+## Save and import variables.
 
 ```bash
 echo "export NODENAME=$NODENAME" >> $HOME/.bash_profile
