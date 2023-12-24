@@ -50,7 +50,7 @@ echo "export OSMOSIS_CHAIN_ID=osmosis-1" >> $HOME/.bash_profile
 echo "export OSMOSIS_PORT=${OSMOSIS_PORT}" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
-## Binaries
+## Binaries.
 
 ```bash
 cd $HOME
@@ -59,7 +59,7 @@ cd osmosis
 git checkout v3.1.0
 make install
 ```
-## update 
+## update.
 ```bash
 cd osmosis
 git checkout v6.4.0
